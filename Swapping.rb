@@ -4,9 +4,10 @@
 =end
 
 def variable_swap(a, b)
-    # Your code here
-end
-  
+    item = a
+    b = item
+    a = b
+end 
 # Example usage
 a = 5
 b = 10

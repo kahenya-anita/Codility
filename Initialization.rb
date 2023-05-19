@@ -7,7 +7,8 @@ class Person
     attr_accessor :name, :age
   
     def initialize(name, age)
-      # Your code here
+      @name = name
+      @age = age
     end
 end
   

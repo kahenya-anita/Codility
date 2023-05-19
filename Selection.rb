@@ -6,7 +6,7 @@
 =end
 
 def select_keys(hash, keys)
-    # Your code here
+    hash.select { |key, _| keys.include?(key) }
 end
 
 # Example usage
